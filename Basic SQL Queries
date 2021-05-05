@@ -22,4 +22,5 @@ insert into Employee values("Manoj12","13BEC014",54,9965464612,"xyz@gmail.com","
 --select distinct * from Employee;
 --select count (distinct EmployeeID) from Employee;
 --select * from Employee order by EmployeeId DESC ; ASC
-select * from Employee order by EmployeeId,EmployeeName DESC;
+--select * from Employee order by EmployeeId,EmployeeName DESC;
+select  * from Employee where age>=24 and  (EmployeeName="Manoj"or EmployeeId="13BEC013");
