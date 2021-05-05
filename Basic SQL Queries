@@ -8,11 +8,11 @@ EmailId varchar(255),
 address varchar(255)
 );
 
-insert into Employee values("Manoj1","13BEC013",12,9965464612,"xyz@gmail.com","xyz");
-insert into Employee values("Manoj2","13BEC011",24,9965464612,"xyz@gmail.com","xyz");
-insert into Employee values("Manoj","13BEC011",24,9965464612,"xyz@gmail.com","xyz");
-insert into Employee values("Manoj13","13BEC013",34,9965464612,"xyz@gmail.com","xyz");
-insert into Employee values("Manoj12","13BEC014",54,9965464612,"xyz@gmail.com","xyz");
+insert into Employee values("Manoj1","13BEC013",12,1234567890,"xyz@gmail.com","xyz");
+insert into Employee values("Manoj2","13BEC011",24,654321789,"xyz@gmail.com","xyz");
+insert into Employee values("Manoj","13BEC011",24,879654321,"xyz@gmail.com","xyz");
+insert into Employee values("Manoj13","13BEC013",34,987654321,"xyz@gmail.com","xyz");
+insert into Employee values("Manoj12","13BEC014",54,9345678982,"xyz@gmail.com","xyz");
 
 --select * from Employee;
 -- select * from Employee;
