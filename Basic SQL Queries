@@ -1,0 +1,25 @@
+create table Employee
+(
+EmployeeName varchar(255),
+EmployeeId varchar(255),
+age int,
+PhoneNumber int,
+EmailId varchar(255),
+address varchar(255)
+);
+
+insert into Employee values("Manoj1","13BEC013",12,9965464612,"xyz@gmail.com","xyz");
+insert into Employee values("Manoj2","13BEC011",24,9965464612,"xyz@gmail.com","xyz");
+insert into Employee values("Manoj","13BEC011",24,9965464612,"xyz@gmail.com","xyz");
+insert into Employee values("Manoj13","13BEC013",34,9965464612,"xyz@gmail.com","xyz");
+insert into Employee values("Manoj12","13BEC014",54,9965464612,"xyz@gmail.com","xyz");
+
+--select * from Employee;
+-- select * from Employee;
+--select *from Employee where EmployeeName="Manoj12";
+--select * from Employee where EmployeeName="Manoj" and  EmployeeId="13BEC011";
+--select * from Employee where age>=24 or EmployeeName="Manoj";
+--select distinct * from Employee;
+--select count (distinct EmployeeID) from Employee;
+--select * from Employee order by EmployeeId DESC ; ASC
+select * from Employee order by EmployeeId,EmployeeName DESC;
