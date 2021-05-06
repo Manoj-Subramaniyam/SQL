@@ -1,0 +1,39 @@
+--create table Employee
+--(
+--ID int NOT NULL,
+--FirstName varchar(255) NOT NULL,
+--LastName varchar(255) NOT NULL,
+--age int,
+--PRIMARY KEY(ID)
+--);
+--Null value not allowed in ID ,FirstName,lastName
+--insert into Employee values(1234,"abc","xyz",10);
+--insert into Employee values(12345,"abcd","xyz",10);
+--PRIMARY KEY is the combination of UNIQUE and NOT NULL Constraint
+--Ther is only on Primary key
+--But it can have single or multiplecolumn
+
+--select * from Employee;
+
+create table Student
+(
+ID int NOT NULL ,
+FirstName varchar(255) NOT NULL,
+LastName varchar(255) NOT NULL,
+age int,
+CONSTRAINT PK_Student PRIMARY KEY(ID,FirstName)
+);
+--Null value not allowed in ID ,FirstName,lastName
+insert into Student values(NULL,"abc","xyz",10);
+insert into Student values(12345,NULL,"xyz",10);
+--PRIMARY KEY is the combination of UNIQUE and NOT NULL Constraint
+--Ther is only on Primary key
+--But it can have single or multiplecolumn
+
+select * from Student;
+--Adding primary key on existing table
+ALTER Table Student add PRIMARY KEY(ID);
+--drop primary key on existing table
+ALTER Tabe Student drop PRIMARY KEY;
+
+
