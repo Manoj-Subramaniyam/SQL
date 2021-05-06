@@ -1,0 +1,24 @@
+create table Customer
+(
+Name varchar(255),
+Id varchar(255),
+PhoneNumber int,
+EmailId varchar(255),
+Country varchar(255)
+);
+
+insert into Customer values("Manoj1","13BEC013",1234567892,"xyz@gmail.com","IN");
+insert into Customer values("Manoj2","13BEC001",NULL,"xyz@gmail.com","USA");
+insert into Customer values("Manoj","13BEC011",1234567892,"xyz@gmail.com","USA");
+insert into Customer values("Tommy13","13BEC013",123458762,"xyz@gmail.com",NULL);
+insert into Customer values("Tom12","13BEC014",NULL,"xyz@gmail.com","Germany");
+
+--select * from Customer where NOT Country="USA";
+--select * from Customer where  Country="USA" and not Id="13BEC011"
+--% means 0 to many _ means one character
+--select * from Customer where Name LIKE 'T%';
+--select * from Customer where Name LIKE '%om%';
+--select * from Customer where Name LIKE '__m%';
+--IS NULL, IS NOT NULL
+--select * from Customer where Country is NULL;
+--select * from Customer where PhoneNumber is NOT NULL;
