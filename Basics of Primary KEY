@@ -10,7 +10,7 @@
 --insert into Employee values(1234,"abc","xyz",10);
 --insert into Employee values(12345,"abcd","xyz",10);
 --PRIMARY KEY is the combination of UNIQUE and NOT NULL Constraint
---Ther is only on Primary key
+--Ther is only one Primary key
 --But it can have single or multiplecolumn
 
 --select * from Employee;
